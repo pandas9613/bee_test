@@ -136,6 +136,7 @@ body {
 .block {
     position: absolute;
     border-top: 1px solid #b8dfe6;
+    background-color: gray; /* 將這裡的顏色更改為您想要的顏色 */
     background-repeat: no-repeat;
     background-position: center;
 }
