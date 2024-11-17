@@ -20,7 +20,23 @@
     echo "<script>var tj='" . $str . "'</script>";
     ?>
 </head>
-
+<style>
+    body {
+    background-color: #f1e150;
+  }
+    #GameScoreLayer-text {
+        color: #FA812F; 
+    }
+    #cps {
+        color: #FA4032; 
+    }
+    #score {
+        color: #FAB12F; 
+    }
+    #best {
+        color: #0D92F4; 
+    }
+</style>
 <body onLoad="init()" oncontextmenu=self.event.returnValue=false>
     <div id="GameScoreLayer" class="BBOX SHADE bgc1" style="display:none;">
         <div style="padding:5%;margin-top: 200px;background-color: rgba(125, 181, 216, 0.3);">
